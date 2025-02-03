@@ -30,13 +30,13 @@ const Home = () => {
         </div>
         <div className='flex justify-start items-center w-auto h-auto gap-4'>
           <div className="h-16 w-16 bg-white justify-center flex items-center rounded-2xl shadow-custom cursor-pointer">
-            <a href="https://github.com/luanoliveiradasilva" target="_blank" className='cursor-pointer'>
+            <a href="https://github.com/LuanNascimentoOliveira" target="_blank" className='cursor-pointer'>
               <img src={Git} alt="Git" />
             </a>
           </div>
 
           <div className="h-16 w-16 bg-white justify-center flex items-center rounded-2xl shadow-custom cursor-pointer">
-            <a href="https://www.linkedin.com/in/luan-nascimento-oliveira/" target="_blank" className='cursor-pointer'>
+            <a href="https://www.linkedin.com/in/luan-n-oliveira/" target="_blank" className='cursor-pointer'>
               <img src={Linkedin} alt="Linkedin" />
             </a>
 
