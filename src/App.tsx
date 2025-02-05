@@ -9,6 +9,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Footer from './components/Footer';
 import { Element } from 'react-scroll';
 
+
+//TODO cuidado com o  px-36 pt-7 afeta o menu div className='w-auto h-full px-36 pt-7'>
 function App() {
 
   const router = createBrowserRouter([
@@ -19,7 +21,7 @@ function App() {
   ])
   return (
     <>
-      <div className='w-auto h-full px-36 pt-7'>
+      <div className='w-auto h-full'>
         <RouterProvider router={router} />
 
         <Element name="Home">
