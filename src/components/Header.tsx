@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll';
 import { useState } from "react";
-
+import MaskGroup from '/assets/img/Mask group.svg';
 
 const menuData = [
   { name: "Home", link: "/" },
@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className='flex w-full m-0 p-0 top-0 justify-end float-end items-end absolute lg:justify-center lg:items-center'>
+      <nav className='right-0 flex-col fixed top-4 h-full z-20 w-[30%] lg:flex lg:w-full lg:justify-between lg:items-center lg:relative lg:top-0'>
 
         <div className="w-full flex items-center justify-between">
           <span className="w-auto h-auto text-5xl font-serif hidden lg:flex lg:pl-10 lg:pt-5 ">
@@ -43,27 +43,29 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className="pt-10 pr-5">
+        <div className="flex justify-center items-center">
           <button
-            className="lg:hidden border border-gray-500"
+            className="lg:hidden bg-purple p-1 rounded-md shadow-lg"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
             </svg>
           </button>
         </div>
-        
-        <div className="lg:hidden absolute top-full w-auto">
-          <ul className={`${isOpen
-            ? 'bg-white shadow-md p-4 rounded-md transform transition-transform duration-300 ease-in-out translate-x-0 opacity-100 right-0'
-            : 'bg-white shadow-md p-4 rounded-md transform transition-transform duration-300 ease-in-out translate-x-full opacity-0 left-0 '}`}>
-            <div className='text-base font-serif text-center'>
-              Luan O
-            </div>
-            <Menu />
-          </ul>
-        </div>
+
+        <ul className={`bg-white p-4 rounded-es transform transition-transform duration-300 ease-in-out h-full lg:hidden ${isOpen
+          ? ' translate-x-0 opacity-100 right-0 shadow'
+          : 'translate-x-full opacity-0 hidden left-0'}`}>
+          <div className="lg:hidden rounded-full h-20 w-20 flex bg-purple">
+            <img src={MaskGroup} alt="Mask Group" />
+          </div>
+          <div className='text-base font-serif text-center'>
+            Luan O
+          </div>
+          <Menu />
+        </ul>
+
       </nav>
     </>
   );

@@ -21,7 +21,7 @@ function App() {
   ])
   return (
     <>
-      <div className='w-auto h-full'>
+      <div className=' w-auto h-full'>
         <RouterProvider router={router} />
 
         <Element name="Home">
