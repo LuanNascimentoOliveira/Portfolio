@@ -22,12 +22,26 @@ export default {
       },
       keyframes: {
         appear: {
-          '0%': { opacity: "0", scale: "0.5"},
+          '0%': { opacity: "0", scale: "0.5" },
           '100%': { opacity: "1", scale: "1" },
+        },
+        openmenu: {
+          // initial position
+          '0%': { right: '-224px', visibility: 'hidden'},
+          // final position
+          '100%': { right: '0px', visibility: 'visible'}
+        },
+        closemenu: {
+          // initial position
+          '0%': { right: '0px', visibility: 'visible'},
+          // final position
+          '100%': { right: '-224px', visibility: 'hidden', opacity: '0'}
         }
       },
       animation: {
         "appear": "appear 1s linear",
+        "openmenu": 'openmenu 1s ease-in-out forwards',
+        "closemenu": 'closemenu 1s ease-in-out forwards',
       }
 
     },

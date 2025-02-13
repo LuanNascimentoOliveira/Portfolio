@@ -1,12 +1,12 @@
 import './App.css'
 import Header from './components/Header';
 import Home from './pages/Home';
-import About from './pages/About';
-import Skill from './pages/Skill';
-import Project from './pages/Project';
-import Contact from './pages/Contact';
+// import About from './pages/About';
+// import Skill from './pages/Skill';
+// import Project from './pages/Project';
+// import Contact from './pages/Contact';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import { Element } from 'react-scroll';
 
 
@@ -21,13 +21,13 @@ function App() {
   ])
   return (
     <>
-      <div className=' w-auto h-full'>
+      <div className='w-full h-full'>
         <RouterProvider router={router} />
 
         <Element name="Home">
           <Home />
         </Element>
-        <Element name="About">
+        {/* <Element name="About">
           <About />
         </Element>
         <Element name="Skills">
@@ -39,7 +39,7 @@ function App() {
         <Element name="Contactme">
           <Contact />
         </Element>
-        <Footer />
+        <Footer /> */}
       </div>
     </>
   )
