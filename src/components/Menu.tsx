@@ -25,16 +25,20 @@ interface MobileMenuProps {
   isOpen: boolean;
 }
 
-const MobileMenu = ({ isOpen }: MobileMenuProps) => (
-  <ul className={`bg-white absolute p-4 rounded-es h-full lg:hidden ${isOpen ? 'animate-openmenu shadow' : 'animate-closemenu'}`}>
-    <div className="lg:hidden rounded-full h-20 w-20 flex bg-purple">
-      <img src={MaskGroup} alt="Mask Group" />
-    </div>
-    <div className='text-base font-serif text-center'>
-      Luan O
-    </div>
-    <Menu />
-  </ul>
-);
+const MobileMenu = ({ isOpen }: MobileMenuProps) => {
+  return (
+    <>
+      <ul className={`bg-white absolute p-4 rounded-es h-full lg:hidden ${isOpen ? 'animate-openmenu shadow' : 'animate-closemenu'}`}>
+        <div className="lg:hidden rounded-full h-20 w-20 flex bg-purple">
+          <img src={MaskGroup} alt="Mask Group" />
+        </div>
+        <div className='text-base font-serif text-center'>
+          Luan O
+        </div>
+        <Menu />
+      </ul>
+    </>
+  )
+};
 
 export { MobileMenu, Menu };

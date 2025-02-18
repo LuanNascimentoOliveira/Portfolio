@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/Header';
 import Home from './pages/Home';
-// import About from './pages/About';
+import About from './pages/About';
 // import Skill from './pages/Skill';
 // import Project from './pages/Project';
 // import Contact from './pages/Contact';
@@ -27,10 +27,10 @@ function App() {
         <Element name="Home">
           <Home />
         </Element>
-        {/* <Element name="About">
+         <Element name="About">
           <About />
         </Element>
-        <Element name="Skills">
+        {/*<Element name="Skills">
           <Skill />
         </Element>
         <Element name="Projects">
