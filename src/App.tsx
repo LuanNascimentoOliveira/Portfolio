@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Skill from './pages/Skill';
-// import Project from './pages/Project';
+import Project from './pages/Project';
 // import Contact from './pages/Contact';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import Footer from './components/Footer';
@@ -33,10 +33,10 @@ function App() {
         <Element name="Skills">
           <Skill />
         </Element>
-        {/*<Element name="Projects">
+        <Element name="Projects">
           <Project />
         </Element>
-        <Element name="Contactme">
+        {/*<Element name="Contactme">
           <Contact />
         </Element>
         <Footer /> */}
