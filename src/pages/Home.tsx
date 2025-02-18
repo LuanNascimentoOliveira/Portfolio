@@ -50,7 +50,7 @@ const Home = () => {
           </div>
 
           <div className="rounded-full h-[3rem] w-[3rem] bg-white justify-center flex items-center lg:rounded-2xl shadow-custom cursor-pointer lg:h-16 lg:w-16">
-            <a href={docCv} download="CV - Luan Nascimento Oliveira.pdf" className='cursor-pointer w-9 rounded-full flex justify-center items-center m-0 p-0'>
+            <a href={docCv} download="CV - English - Luan Nascimento Oliveira.pdf" className='cursor-pointer w-9 rounded-full flex justify-center items-center m-0 p-0'>
               <img src={CV} alt="Linkedin" />
             </a>
 

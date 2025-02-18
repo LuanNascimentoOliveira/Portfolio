@@ -3,7 +3,6 @@ import ArrowDown from '/assets/icons/Arrow Down.svg';
 import loadIcons from "../utils/laodIcons";
 
 const Skill = () => {
-
   return (
     <>
       <div className='animate-appear animPage space-y-10 justify-center items-center px-4 pt-5 lg:flex lg:flex-col lg:justify-start lg:items-start lg:space-y-10 lg:px-24 lg:pt-10'>

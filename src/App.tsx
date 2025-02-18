@@ -4,9 +4,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Skill from './pages/Skill';
 import Project from './pages/Project';
-// import Contact from './pages/Contact';
+import Contact from './pages/Contact';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import { Element } from 'react-scroll';
 
 
@@ -36,10 +36,10 @@ function App() {
         <Element name="Projects">
           <Project />
         </Element>
-        {/*<Element name="Contactme">
+       <Element name="Contactme">
           <Contact />
         </Element>
-        <Footer /> */}
+        <Footer />
       </div>
     </>
   )
