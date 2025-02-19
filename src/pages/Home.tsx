@@ -14,7 +14,7 @@ const Home = () => {
           
           <div className='lg:w-[50%] lg:h-auto lg:space-y-[14px] justify-center flex items-center flex-col'>
 
-            <p className='text-4xl w-4/5 lg:text-6xl lg:text-left lg:w-full'>
+            <p className='text-4xl w-4/6 border border-red-600 font-playwrite lg:text-5xl lg:text-left lg:w-full'>
               Hello, I’m <span className='text-purple'>Luan</span> Oliveira
             </p>
 

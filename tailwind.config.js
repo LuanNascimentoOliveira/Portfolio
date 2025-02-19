@@ -14,8 +14,7 @@ export default {
         'purple-black': '#7F51C9',
       },
       fontFamily: {
-        sans: ['PoetsenOne-Regular', ...defaultTheme.fontFamily.sans],
-        serif: ['Rancho-Regular', ...defaultTheme.fontFamily.serif]
+        playwrite: ['Playwrite US Modern', ...defaultTheme.fontFamily.serif]
       },
       cursor: {
         'pointer': 'url(/assets/icons/Cursor.svg), pointer',

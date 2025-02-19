@@ -22,8 +22,8 @@ const Header = () => {
     <>
       <nav className='right-0 flex-col fixed top-4 h-full z-20 w-[30%] lg:flex lg:w-full lg:justify-between lg:items-center lg:relative lg:top-0'>
         <div className="w-full flex items-center justify-between">
-          <span className="w-auto h-auto text-5xl font-serif hidden lg:flex lg:pl-10 lg:pt-5 ">
-            Luan N Oliveira
+          <span className="w-auto h-auto text-5xl font-playwrite  hidden lg:flex lg:pl-10 lg:pt-5 ">
+            Luan.O
           </span>
           <ul className="hidden text-base gap-6 w-auto items-center justify-end lg:pr-10 lg:pt-5 lg:flex ">
             <Menu />
