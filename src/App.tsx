@@ -36,7 +36,7 @@ function App() {
         <Element name="Projects">
           <Project />
         </Element>
-       <Element name="Contactme">
+       <Element name="Contacts">
           <Contact />
         </Element>
         <Footer />
