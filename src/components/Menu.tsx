@@ -6,7 +6,7 @@ const TitleMenus = [
   { name: "About", link: "/About" },
   { name: "Skills", link: "/Skills" },
   { name: "Projects", link: "/Projects" },
-  { name: "Contactme", link: "/Contactme" }
+  { name: "Contacts", link: "/Contacts" }
 ];
 
 const Menu = () => (

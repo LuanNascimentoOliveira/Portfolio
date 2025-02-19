@@ -9,7 +9,7 @@ const Contact = () => {
             Contact <span className="text-purple">me</ span>
           </h1>
           <p className='text-sm lg:text-justify lg:pl-7 lg:text-lg pt-4'>
-            Things I’ve built so far
+            I’m just a message away.
           </p>
         </div>
         <div className="w-full text-xl justify-center items-center flex text-center lg:h-3/4 lg:text-5xl">
